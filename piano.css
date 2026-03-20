@@ -1,0 +1,54 @@
+div {
+    text-align : center; 
+}
+
+body {
+    background: linear-gradient(135deg, #273b61, #28477c);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+
+
+button {
+    padding: 70px 14.5px;
+    font-size: 24px;
+    background: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 10;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background: #55c9ff;
+    transform: scale(1.05);
+}
+
+button.active {
+    transform: scale(0.98);
+}
+
+.info {
+    position: absolute;
+    top: 20px;
+    font-size: 18px;
+    color: #28477c;
+}
+
+button.pressed {
+    background-color: #28477c;
+}
+
+
+
+
+
+
+
